@@ -3,6 +3,9 @@ body {
   font-family: "Public Sans", Arial, Helvetica, sans-serif;
   color: white;
   display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {
@@ -19,16 +22,19 @@ p {
 li {
   list-style: none;
   margin: 0 10px;
-  max-width: 335px;
   display: flex;
   position: relative;
 }
 
+img {
+  height: 431px;
+  width: 335px;
+}
+
 .container {
   display: flex;
-  flex-shrink: 1;
   justify-content: center;
-  max-width: 1440px;
+  flex-wrap: wrap;
 }
 
 #description {

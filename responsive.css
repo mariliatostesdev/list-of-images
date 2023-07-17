@@ -1,38 +1,9 @@
-@media (max-width: 949px) {
+@media (max-width: 1440px) {
   .container {
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    align-items: center;
+    max-width: 800px;
   }
 
-  body {
-    margin: 45px 20px;
+  img {
+    margin: 10px 0;
   }
 }
-
-@media (max-width: 399px) {
-  body {
-    margin: 45px 20px;
-  }  
-  
-  .container {
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-
-    img {
-        max-width: 250px;
-        max-height: 350px;
-    }
-  
-    #description {
-      flex-basis: 283px;
-      position: absolute;
-      top: 235px;
-      left: 26px;
-      right: 0;
-      z-index: 2;
-    }
-  }
