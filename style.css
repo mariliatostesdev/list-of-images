@@ -1,0 +1,41 @@
+body {
+  margin: 128px 10px;
+  font-family: "Public Sans", Arial, Helvetica, sans-serif;
+  color: white;
+  display: flex;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+
+p {
+  font-weight: 300;
+  font-size: 17px;
+}
+
+li {
+  list-style: none;
+  margin: 0 10px;
+  max-width: 335px;
+  display: flex;
+  position: relative;
+}
+
+.container {
+  display: flex;
+  flex-shrink: 1;
+  justify-content: center;
+  max-width: 1440px;
+}
+
+#description {
+  flex-basis: 283px;
+  position: absolute;
+  top: 328px;
+  left: 26px;
+  right: 0;
+  z-index: 2;
+}
