@@ -12,7 +12,11 @@
 }
 
 @media (max-width: 399px) {
-    .container {
+  body {
+    margin: 45px 20px;
+  }  
+  
+  .container {
       flex-direction: column;
       justify-content: center;
       align-items: center;
@@ -23,7 +27,12 @@
         max-height: 350px;
     }
   
-    body {
-      margin: 45px 20px;
+    #description {
+      flex-basis: 283px;
+      position: absolute;
+      top: 235px;
+      left: 26px;
+      right: 0;
+      z-index: 2;
     }
   }
