@@ -2,6 +2,13 @@
 
 Este projeto apresenta uma lista de imagens com descrições correspondentes. Cada imagem é exibida em um layout responsivo, e detalhes sobre a obra de arte e o artista são exibidos ao passar o mouse sobre cada imagem.
 
+## Visualização
+### Desktop:
+![image](https://github.com/mariliatostesdev/list-of-images/assets/133540781/462079fe-caf6-44b0-abb4-33823d692f0c)
+### Responsiva:
+![image](https://github.com/mariliatostesdev/list-of-images/assets/133540781/4668e20d-3f4b-4832-b4a5-44d329371f46)
+
+
 ## Estrutura HTML
 
 A estrutura HTML é organizada usando uma lista não ordenada (ul). Cada item da lista (li) representa uma imagem com uma descrição associada. As imagens são provenientes do diretório "imagens".
